@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Лабораторная работа</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/main.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+            <div class="zadanie">
+                <p>Варинт 5 Задание 1</p>
+                <p>Определить, принадлежит ли точка с координатами (х, у) заштрихованной части плоскости</p>
+                <img src="/img/1.PNG" alt="" class="img1" srcset=""><br>
+                    <input type="text" id="kor_x" placeholder="Введите координату X">
+                    <input type="text" id="kor_y" placeholder="Введите координату Y">
+                    <input type="button" value="Вычислить" onclick="buttonClick()" class="btn btn-outline-warning">
+                    <input type="button" value="C" onclick="clr()" class="btn btn-outline-danger">
+                <hr>
+            </div>
+            <div class="zadanie">
+                <p>Вариант 5 задание 2</p>
+                <p>Для xЭ[–1,7; 1,7] вычислить <img src="/img/2.PNG" alt="" srcset="">Значение y произвольное. Шаг изменения x равен 0,2.</p>
+                <input type="text" id="z2_y" placeholder="Введите Y">
+                <input type="button" value="Вычислить" onclick="zadanie2()" class="btn btn-outline-warning">
+                <input type="button" value="C" onclick="clr2()" class="btn btn-outline-danger">
+                <div class="form-group">
+                    <label for=""></label>
+                    <textarea class="form-control" name="" id="textareaz1" ></textarea>
+                </div>
+                <hr>
+            </div>
+            <div class="zadanie">
+                <p>Вариант 5 задание 3</p>
+                <p>Дано действительное число a. Вычислить f(a), если <img src="/img/3.PNG" alt="" srcset=""></p>
+                <input type="text" id="z3_x" placeholder="Введите X">
+                <input type="button" value="Вычислить" onclick="zadanie3()" class="btn btn-outline-warning">
+                <input type="button" value="C" onclick="clr3()" class="btn btn-outline-danger">
+                <hr>
+            </div>
+            <div class="zadanie">
+                <p>Вариант 5 задание 4</p>
+                <p>Для xЭ[–3,7; 3,7] вычислить <img src="/img/4.PNG" alt="" srcset="">Шаг изменения x
+                    равен 0,2. Значения x и y вывести в виде таблицы. Найти количество значений y,
+                    больших и меньших нуля.</p>
+                    <input type="button" value="Вычислить" onclick="zadanie4()" class="btn btn-outline-warning">
+                    <input type="button" value="C" onclick="clr4()" class="btn btn-outline-danger">
+                <div class="form-group">
+                    <label for=""></label>
+                    <textarea class="form-control" name="" id="textareaz4" ></textarea>
+                </div>
+                <hr>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>    
+</body>
+</html>

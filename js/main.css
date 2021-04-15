@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    line-height: 1.5;
+    background-color: #F1F3F6;
+    color: #34495E;
+    overflow-y: scroll;
+}
+
+header, nav, mian, footer{
+    padding: 2px calc((100% - 800px)/2)0;
+}
+
+.img1 {
+    width: 270px;
+    height: 270px;
+}
+
+.zadanie{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    line-height: 35px;
+    margin: 8px;
+    padding: 0 15px;
+    font-size: 20px;
+    position: relative;
+    opacity: 0.999;
+    border-radius: 3px;
+}
+
+input[type="text"]{
+    border-radius: 10px;
+    padding: 0 15px;
+    background-color: #F1F3F6;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #000;
+    background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
+    background-image: -moz-linear-gradient(left, #fff, #000, #fff);
+    background-image: -ms-linear-gradient(left, #fff, #000, #fff);
+    background-image: -o-linear-gradient(left, #fff, #000, #fff);
+}
+
+#textareaz1{
+    width: 300px;
+    height: 500px;
+    resize: none;
+    display:inline-table;
+    background-color: #F1F3F6;
+}
+
+#textareaz4{
+    width: 350px;
+    min-height: 1200px;
+    resize: none;
+    display:inline-table;
+    background-color: #F1F3F6;
+}
